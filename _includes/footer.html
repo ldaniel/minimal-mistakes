@@ -18,10 +18,10 @@
   </ul>
 </div>
 
-{% if site.name == "deeployer"  %}
-  {% assign year_start = "2020" %}
-{% else %}
+{% if site.name == 'Leandro Daniel' %}
   {% assign year_start = "2008" %}
+{% else %}
+  {% assign year_start = "2020" %}
 {% endif %}
 
 <div class="page__footer-copyright">&copy; {{ year_start }}-{{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
